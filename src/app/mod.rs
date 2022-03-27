@@ -1,3 +1,4 @@
 pub mod app;
-// mod ticker;
+mod event_queue;
+mod model_manager;
 mod ui;

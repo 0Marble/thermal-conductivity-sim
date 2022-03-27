@@ -1,4 +1,4 @@
-pub trait Model {
+pub trait Model: Send {
     fn reset(&mut self);
     fn run_step(&mut self);
 

@@ -36,7 +36,6 @@ impl DifferentialModel {
                 .collect(),
         );
         nodes.push(right_edge_conditions.eval(&[0.]).unwrap());
-        // dbg!(&nodes);
         Self {
             node_step,
             coefficient,

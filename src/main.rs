@@ -1,6 +1,7 @@
 mod app;
 mod model;
 mod renderer;
+mod ticker;
 mod window;
 
 use renderer::error::Error;
